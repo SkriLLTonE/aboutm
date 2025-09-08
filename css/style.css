@@ -61,6 +61,7 @@
     font-weight: 700;
     font-size: 40px;
     color: #000;
+    text-align: center;
 }
 
 .banner__call {
@@ -83,7 +84,6 @@
     font-size: 40px;
     color: #fff;
     text-align: center;
-
 }
 
 .about__wrap {
@@ -113,12 +113,12 @@
     color: #fff;
 }
 
-.about__desc-title {
+.about__desc-h {
     font-weight: 400;
     font-size: 35px;
 }
 
-.about__desc-text {
+.about__desc-p {
     font-weight: 400;
     font-size: 18px;
     text-align: justify;
@@ -136,7 +136,6 @@
     justify-content: space-between;
     gap: 30px;
 }
-
 
 .works__card {
     max-width: 312px;
@@ -185,10 +184,40 @@
     font-weight: 700;
     font-size: 20px;
     color: #000;
-    transition: .3s;
+    transition: 0.3;
 }
 
 .works__card-desc_link:hover {
     background: #000;
     color: #fff;
+}
+
+.footer {
+    background: #000;
+
+}
+
+.footer__wrap {
+    padding-top: 47px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 36px;
+}
+
+.footer__networks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.footer__text-h {
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
 }
